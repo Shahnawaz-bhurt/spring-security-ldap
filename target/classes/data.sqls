@@ -1,0 +1,5 @@
+INSERT INTO users(username, password, enabled) VALUES("snb", "123", true);
+INSERT INTO users(username, password, enabled) VALUES("shah", "123", true);
+INSERT INTO authorities(username, authority) values("snb", "ROLE_USER");
+INSERT INTO authorities(username, authority) values("shah", "ROLE_USER");
+INSERT INTO authorities(username, authority) values("shah", "ROLE_ADMIN");
